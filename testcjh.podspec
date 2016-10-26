@@ -8,6 +8,8 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '6.0'
     s.source       = {:git => 'https://github.com/caijianhai/testcjh.git', :tag => s.version}
     s.source_files = 'testcjh/Classes/**/*.{h,m}'
+    s.frameworks = 'UIKit','Foundation'
+
     #s.resource     = 'MJRefresh/MJRefresh.bundle'
     #s.requires_arc = true
 end

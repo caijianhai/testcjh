@@ -11,6 +11,6 @@
 @interface FileTool : NSObject
 
 //
-- (void)test;
++ (void)test;
 
 @end

@@ -12,9 +12,9 @@
 
 
 //
-- (void)test
++ (void)test
 {
-    
+    NSLog(@"...balabala...");
 }
 
 

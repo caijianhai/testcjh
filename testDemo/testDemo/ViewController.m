@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "FileTool.h"
+
 @interface ViewController ()
 
 @end
@@ -16,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [FileTool test];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

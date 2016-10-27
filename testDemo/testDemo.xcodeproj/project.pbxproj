@@ -13,6 +13,7 @@
 		5C3544891DC0CFA500943205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3544871DC0CFA500943205 /* Main.storyboard */; };
 		5C35448B1DC0CFA500943205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C35448A1DC0CFA500943205 /* Assets.xcassets */; };
 		5C35448E1DC0CFA500943205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C35448C1DC0CFA500943205 /* LaunchScreen.storyboard */; };
+		5C3544A21DC17F1C00943205 /* FileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3544A11DC17F1C00943205 /* FileTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5C35448A1DC0CFA500943205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C35448D1DC0CFA500943205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C35448F1DC0CFA500943205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C3544A01DC17F1C00943205 /* FileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTool.h; sourceTree = "<group>"; };
+		5C3544A11DC17F1C00943205 /* FileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		5C3544721DC0CFA500943205 = {
 			isa = PBXGroup;
 			children = (
+				5C35449E1DC17F1C00943205 /* testcjh */,
 				5C35447D1DC0CFA500943205 /* testDemo */,
 				5C35447C1DC0CFA500943205 /* Products */,
 			);
@@ -79,6 +83,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5C35449E1DC17F1C00943205 /* testcjh */ = {
+			isa = PBXGroup;
+			children = (
+				5C35449F1DC17F1C00943205 /* Classes */,
+			);
+			name = testcjh;
+			path = ../testcjh;
+			sourceTree = "<group>";
+		};
+		5C35449F1DC17F1C00943205 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5C3544A01DC17F1C00943205 /* FileTool.h */,
+				5C3544A11DC17F1C00943205 /* FileTool.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,6 +132,7 @@
 				TargetAttributes = {
 					5C35447A1DC0CFA500943205 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X4P5KW4G5C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -153,6 +176,7 @@
 				5C3544861DC0CFA500943205 /* ViewController.m in Sources */,
 				5C3544831DC0CFA500943205 /* AppDelegate.m in Sources */,
 				5C3544801DC0CFA500943205 /* main.m in Sources */,
+				5C3544A21DC17F1C00943205 /* FileTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +294,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4P5KW4G5C;
 				INFOPLIST_FILE = testDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.testDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hexun.tougustage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -281,9 +306,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4P5KW4G5C;
 				INFOPLIST_FILE = testDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.testDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hexun.tougustage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -307,6 +333,7 @@
 				5C3544941DC0CFA500943205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
